@@ -3,13 +3,13 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.1</title>
-            <pubDate>Tue, 14 Jul 2026 02:15:30 -0700</pubDate>
-            <sparkle:version>243</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <title>0.1.2</title>
+            <pubDate>Tue, 14 Jul 2026 02:37:28 -0700</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.1/Igggy-0.1.1.dmg" length="13839465" type="application/octet-stream" sparkle:edSignature="u+0g/8PSE4SYpx7SXPN5pyfmtHQWNU/YttXnjfS3wSRIUS+knzuP2zthFH+jcHuBHPyAZM5TszEUzdAOOPhIAg=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.2/Igggy-0.1.2.dmg" length="13839309" type="application/octet-stream" sparkle:edSignature="pXVnTB0bcJFxI7Jzl6XY30/YX35YGiVOi411ghugve4O8ZIOwhmSksI8K9JkmX0UMzh4WiewWvT4511zLnjNBQ=="/>
         </item>
     </channel>
 </rss>
