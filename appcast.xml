@@ -3,13 +3,25 @@
     <channel>
         <title>Igggy</title>
         <item>
+            <title>0.1.4</title>
+            <pubDate>Sat, 10 Oct 2026 14:21:24 -0700</pubDate>
+            <sparkle:version>335</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.4/Igggy-0.1.4.dmg" length="14597497" type="application/octet-stream" sparkle:edSignature="IYXtNoTMQEkGlGQpI8gAJzM7OQnP1fZcCWmJs1YQ24pPcXxSYaXu1Pg4ZuL6+QMl+gO2mwYMAvnW9RR87wyWCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.4/Igggy335-328.delta" sparkle:deltaFrom="328" length="4913590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u2nZ5rcLqq1ldqHX/k+B1+SwG1c5XnmOr9ba4ZK96V7Rl9LPvEZpby/oO1j+alNP/KWZ2tjofQn4xhGAD6nCDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.3</title>
             <pubDate>Mon, 07 Sep 2026 12:44:11 -0700</pubDate>
             <sparkle:version>328</sparkle:version>
             <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.3/Igggy-0.1.3.dmg" length="15066051" type="application/octet-stream" sparkle:edSignature="3z5ny2cNeMMJYQkFd5eV/sLZ27ktS0O9CgtIx87IAb3lD5OnV5IGeCbny6ZcEOG3bsnRNcIOLT3ZLfcwLNDUDw=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.4/Igggy-0.1.3.dmg" length="15066051" type="application/octet-stream" sparkle:edSignature="3z5ny2cNeMMJYQkFd5eV/sLZ27ktS0O9CgtIx87IAb3lD5OnV5IGeCbny6ZcEOG3bsnRNcIOLT3ZLfcwLNDUDw=="/>
         </item>
     </channel>
 </rss>
