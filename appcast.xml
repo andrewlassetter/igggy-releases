@@ -3,13 +3,29 @@
     <channel>
         <title>Igggy</title>
         <item>
+            <title>0.1.8</title>
+            <pubDate>Sat, 10 Oct 2026 19:14:09 -0700</pubDate>
+            <sparkle:version>349</sparkle:version>
+            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.8/Igggy-0.1.8.dmg" length="14602176" type="application/octet-stream" sparkle:edSignature="pZkLfVGMke8fLiY+hz0hLD6znov/GxTxLatqi5wdQo8eBz1wwNOxheoZW92R4NyRb7Cci5Os0UBB4z9nwduqDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.8/Igggy349-347.delta" sparkle:deltaFrom="347" length="1118694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aZS3kK5+dWtXLUxpAHIOuVamJPYeusUuoDEjUNQiE8inYhXdRs8gKpn+SHMGTCnILgy6OArBZLfqHITNUWuTCQ=="/>
+                <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.8/Igggy349-345.delta" sparkle:deltaFrom="345" length="1166298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BCymlE94inSDFu6VWL/d/23XjAE1SpHmDMv+8KfGojkGH44hWNDkSB1ANatecnJN1/Ml+9kmMK6sZMAFGkVFDQ=="/>
+                <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.8/Igggy349-343.delta" sparkle:deltaFrom="343" length="1168938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J79e/6UwQgrth/EtBM3qcXZR3RE1fuQx7sRBZNPDmAQHOF/GLfopYsVR0UlEeRWB+7sGb+OYW7xt1B3nEdbBCA=="/>
+                <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.8/Igggy349-335.delta" sparkle:deltaFrom="335" length="1167210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LnQOWTEA3qF/G2l6w29gevCzvcLHYfQ1mVWx+OmmmnekmPvLD0nzm7zLt918g5jjNUfQy58iz1YbqKOeipsVBg=="/>
+                <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.8/Igggy349-328.delta" sparkle:deltaFrom="328" length="4933182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FeFrqBw+enhDQaMO6+PnT1JDZz92Br9QO96KwWaelnKIZgI/DwBb03SeohLbffvQ0GooxVLpSqvL0yabwMSWBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.7</title>
             <pubDate>Sat, 10 Oct 2026 18:51:38 -0700</pubDate>
             <sparkle:version>347</sparkle:version>
             <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.7/Igggy-0.1.7.dmg" length="14598888" type="application/octet-stream" sparkle:edSignature="bXZj4AQWHAXZC3gx9wxKKguqz7wYMAt6qJ9MRr/LnaM/10Nakn0rf9wESYundML2zUJpOTHAIQW7eTmPEX9uCQ=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.8/Igggy-0.1.7.dmg" length="14598888" type="application/octet-stream" sparkle:edSignature="bXZj4AQWHAXZC3gx9wxKKguqz7wYMAt6qJ9MRr/LnaM/10Nakn0rf9wESYundML2zUJpOTHAIQW7eTmPEX9uCQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.7/Igggy347-345.delta" sparkle:deltaFrom="345" length="952406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="r/L1u3iX1XFnQDRPM5ycSIzDI5Pl0qC1uMFVsxOocdrMPjd7pJNulitZ8sqcaEAxQfOVL/srGlM4rifAB0VADQ=="/>
                 <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.7/Igggy347-343.delta" sparkle:deltaFrom="343" length="952630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yavFnJ21qaYCJs+tU1jwnow4fYjy35PV13LJ7t/8397qzd96jSMG+cP22OL5tvKHQW/2WFxGjG+ZGaMoT7ASDg=="/>
@@ -24,24 +40,11 @@
             <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.7/Igggy-0.1.6.dmg" length="14597600" type="application/octet-stream" sparkle:edSignature="GAmgvF3pAI1QbYc50/cqvlNkR2lnYxVgGgd9ncWC1U/c93u98pajC+rsNuwh8b9/A2YEsSeViwkDXDi1H9tUAA=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.8/Igggy-0.1.6.dmg" length="14597600" type="application/octet-stream" sparkle:edSignature="GAmgvF3pAI1QbYc50/cqvlNkR2lnYxVgGgd9ncWC1U/c93u98pajC+rsNuwh8b9/A2YEsSeViwkDXDi1H9tUAA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.6/Igggy345-343.delta" sparkle:deltaFrom="343" length="23494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+/CJh8tZjabFfAKGJeQwF//7swzM0lCsQrVuUXk8sd0yFnuloU0bfg2BLwlLkxQNjlFGCLtSkMtDx0Zu3LJAAA=="/>
                 <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.6/Igggy345-335.delta" sparkle:deltaFrom="335" length="293162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Okra3tVEdo7xhKLDx3TDn8VCOwQV1MFYd5OEFjehlJBV4RQX905vGRZNusrevhr55Xr+vySISj+cBJZ30NYaCg=="/>
                 <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.6/Igggy345-328.delta" sparkle:deltaFrom="328" length="4915806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RHeRttamvj0WJfP/7qc/Wum6ToAkBotdfbzFK5zdmH308ilo8SIKdNNekUYYysBDMVRwzpKT8Vqa3YkJKA92Bg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.5</title>
-            <pubDate>Sat, 10 Oct 2026 16:56:04 -0700</pubDate>
-            <sparkle:version>343</sparkle:version>
-            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.7/Igggy-0.1.5.dmg" length="14597501" type="application/octet-stream" sparkle:edSignature="Yfl8yBbUXtw1wt0XxDaKEQssy7Mf9iiqqaXHzYDqMeFniQHF9Iniq/PZCx1MqrGHgymFXDpWTaDhGSU8ehbCDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.5/Igggy343-335.delta" sparkle:deltaFrom="335" length="291174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FaQPbHTUnVkesAyAMAOVR8NH/yBcUqF/IqUSDlbP62llbEj51U2PzA/5vXEzU+4Xi1cUN18dIoUQNDPljsQYCg=="/>
-                <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.5/Igggy343-328.delta" sparkle:deltaFrom="328" length="4914542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zS+ptAZCvXytt2TWCmzK73dd5kjV/PsX3Dcc1S1jwnZ1OpLq84QfIC7ZgzpHUrhIAwX8rv02AjLZH49+sKPPCA=="/>
             </sparkle:deltas>
         </item>
     </channel>
