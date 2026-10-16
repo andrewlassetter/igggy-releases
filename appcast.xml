@@ -3,13 +3,28 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.12</title>
-            <pubDate>Wed, 14 Oct 2026 13:50:56 -0700</pubDate>
-            <sparkle:version>663</sparkle:version>
-            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+            <title>0.1.13</title>
+            <pubDate>Thu, 15 Oct 2026 17:29:58 -0700</pubDate>
+            <sparkle:version>834</sparkle:version>
+            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.12/Igggy-0.1.12.dmg" length="25054058" type="application/octet-stream" sparkle:edSignature="hAqSc7WJaHsszDpMsm+O3Yuym+g/scvtH5DFPQtDIGiPEVPjWgwcHiPULeX01H8QC9+E3MT6kXzLAbYMrE+lBg=="/>
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.13
+
+- **Meetings start from Today.** Your next meeting shows as its calendar event. Open it to see the meeting page, which becomes the live note when you press Record.
+- **Record back-to-back meetings.** Start the next recording while the last note is still being written.
+- **Notes from long meetings are written about twice as fast.** A 50-minute meeting now takes about 3 minutes instead of 5 to 6, and shorter meetings are faster too.
+- **See progress while your note is written.**
+- **Fewer lost notes.** Recordings keep going when you switch headphones or your Mac sleeps. A note no longer fails when Apple's on-device model stops partway; Igggy tries again. A recording that keeps failing is kept in Settings → Troubleshooting, where you can try again, show it in Finder or delete it.
+- **Igggy asks before ending things.** When a meeting seems over, Igggy asks whether to stop, and long pauses end only after a visible countdown. Quitting during a recording asks first.
+- **Cancel a recording** before it becomes a note.
+- **A smoother live transcript.** Words appear sooner and settle into place, and a small indicator shows who is speaking. In Settings, you can turn on a faster live transcription engine.
+- **If your Mac's sound can't be recorded, Igggy tells you why** before you start.
+- **The menu bar panel matches the main window,** with your meetings and a live transcript preview while recording. The floating recording pill can be dragged anywhere and remembers its spot.
+- **Summarize imported meetings with Igggy.** Granola meetings that include a transcript can be rewritten as an Igggy note, keeping Granola's summary below it.
+- **View in Calendar** on notes recorded from a calendar event.
+]]></description>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.13/Igggy-0.1.13.dmg" length="25296298" type="application/octet-stream" sparkle:edSignature="FJfPyQbyFSz9HoL0snCwndXXXpZsyst2y96TdBNaDFpkoJf5cStmyEefZ3f6lQKzO4+Zp6WFqzF5NXhSSbExCQ=="/>
         </item>
     </channel>
 </rss>
