@@ -3,23 +3,25 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.14</title>
-            <pubDate>Thu, 15 Oct 2026 20:05:05 -0700</pubDate>
-            <sparkle:version>863</sparkle:version>
-            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
+            <title>0.1.15</title>
+            <pubDate>Fri, 16 Oct 2026 16:06:49 -0700</pubDate>
+            <sparkle:version>970</sparkle:version>
+            <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.14
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.15
 
-- **Your recent notes are in the sidebar.** The eight newest notes sit under Notes, with a recording or a note being written at the top. All notes opens the full list, and the section can be collapsed.
-- **One place to add anything.** New (⌘N), at the bottom of the sidebar, opens a window for pasting a transcript or notes, adding a link, adding an audio recording or transcript file, or importing notes from another app or folder. You can also drop a file onto the window.
-- **Write notes from audio and transcript files.** Add an .m4a, .mp3, .wav, .aiff or .caf recording, or a .txt, .vtt or .srt transcript, and Igggy writes the note. Audio is transcribed on your Mac.
-- **Watch a note being written.** After you add something, its note opens right away and fills in when it's done. If something goes wrong, Try again works without adding it a second time.
-- **A simpler sidebar.** The Tasks & Decisions and People pages are gone. Tasks and decisions stay on each note, and Igggy keeps tracking people and topics for search and the meeting brief.
-- **Switching between notes is steadier.** A note opens complete, without the page shifting as it loads.
-- **Note details travel with your library.** Which engine wrote a note, where its copy was saved, its calendar link and the tasks you've checked off are now kept inside your Igggy Library, so they survive moving the library or setting up a new Mac.
+- **New notes show up in your list again.** A note you record now always appears in the Notes list and the sidebar. Before, the list could stay on an older copy of your notes and miss recent ones, even though they were saved.
+- **Notes are ready sooner.** During a long meeting, Igggy reads and summarizes it in parts as you go, so most of the note is done by the time you stop. After you stop, the note writes itself onto its page, so you can start reading right away.
+- **Today shows your meetings at a glance.** Each meeting has its calendar's color, and the one starting within 10 minutes, or under way, gets its own card with Join & record. When the calendar is clear, Today says so and names your next meeting.
+- **The menu bar is a shortcut into your day.** Clicking the menu bar icon shows today's meetings, with Join & record on the one about to start. New note records anything that isn't on the calendar, and Open Igggy opens the window.
+- **Connect more than one Google Calendar.** Add your work and personal accounts in Settings → Calendar; their meetings appear together. To see your calendar colors, reconnect each account once.
+- **Join Zoom, Teams and Webex calls.** Join & record now finds a meeting's call link even when it's only in the event's location or description.
+- **Meeting notes keep who was invited.** Copies saved to your own folder include the invitees.
+- **Search is quicker to use.** After ⌘K, the arrow keys work right away, and a click outside Add to Igggy now closes it.
+- **Lots of polish.** Clearer progress while a note is written, a cleaner sidebar and lists, steadier hover states, and a live transcript in chat-style bubbles.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.14/Igggy-0.1.14.dmg" length="25406017" type="application/octet-stream" sparkle:edSignature="uKRZw3awIs0JZ9xMlY/sF2173TCf1LFf99pWJxfVjQsHVaYLsskRM60mPIYmnw5MVQnUUhfI/OtCVrxrucOYBw=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.15/Igggy-0.1.15.dmg" length="25630530" type="application/octet-stream" sparkle:edSignature="6yXcO2v48bkGQiwUPs8sXY8IQeRYld+Bs4pYdNOO85ba405d351tgf/eAn/ZadQrNMKowUsJEWEGopiz4Il4BA=="/>
         </item>
     </channel>
 </rss>
