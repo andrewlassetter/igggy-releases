@@ -3,25 +3,24 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.15</title>
-            <pubDate>Fri, 16 Oct 2026 16:06:49 -0700</pubDate>
-            <sparkle:version>970</sparkle:version>
-            <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+            <title>0.1.16</title>
+            <pubDate>Sat, 17 Oct 2026 00:08:05 -0700</pubDate>
+            <sparkle:version>1096</sparkle:version>
+            <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.15
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.16
 
-- **New notes show up in your list again.** A note you record now always appears in the Notes list and the sidebar. Before, the list could stay on an older copy of your notes and miss recent ones, even though they were saved.
-- **Notes are ready sooner.** During a long meeting, Igggy reads and summarizes it in parts as you go, so most of the note is done by the time you stop. After you stop, the note writes itself onto its page, so you can start reading right away.
-- **Today shows your meetings at a glance.** Each meeting has its calendar's color, and the one starting within 10 minutes, or under way, gets its own card with Join & record. When the calendar is clear, Today says so and names your next meeting.
-- **The menu bar is a shortcut into your day.** Clicking the menu bar icon shows today's meetings, with Join & record on the one about to start. New note records anything that isn't on the calendar, and Open Igggy opens the window.
-- **Connect more than one Google Calendar.** Add your work and personal accounts in Settings → Calendar; their meetings appear together. To see your calendar colors, reconnect each account once.
-- **Join Zoom, Teams and Webex calls.** Join & record now finds a meeting's call link even when it's only in the event's location or description.
-- **Meeting notes keep who was invited.** Copies saved to your own folder include the invitees.
-- **Search is quicker to use.** After ⌘K, the arrow keys work right away, and a click outside Add to Igggy now closes it.
-- **Lots of polish.** Clearer progress while a note is written, a cleaner sidebar and lists, steadier hover states, and a live transcript in chat-style bubbles.
+- **A new install opens properly.** On some Macs, Igggy's first window opened dark and empty, with the welcome text far below the screen. It now opens at a normal size.
+- **Setup walks you through what matters.** Allow the microphone and computer sound, pick how notes are written, watch the speech model download, connect your calendar. You can go back to any step, and Help → Run Setup Again brings it back later.
+- **A welcome note.** Your library starts with a short note on where your meetings show up, how to record, and how to reach us.
+- **Send feedback from the Help menu.** Help → Send Feedback… opens an email to us with your Igggy and Mac versions filled in.
+- **Every calendar you own.** Igggy now shows meetings from all the Google calendars you own, not only your main one. If Settings → Calendar asks, reconnect once.
+- **A clearer sidebar.** The note you're on is highlighted in blue, the sidebar button moves with the sidebar as it opens and closes, and a recording's row shows a soft pulse.
+- **Settings read more easily.** Descriptions sit under what they explain, in one size. AI Models lists the current Claude and GPT models, and says plainly what happens when you use your own account.
+- **Copies go to any folder.** The Obsidian buttons are gone. Igggy still saves a plain copy of each finished note to whatever folder you choose, your vault included.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.15/Igggy-0.1.15.dmg" length="25630530" type="application/octet-stream" sparkle:edSignature="6yXcO2v48bkGQiwUPs8sXY8IQeRYld+Bs4pYdNOO85ba405d351tgf/eAn/ZadQrNMKowUsJEWEGopiz4Il4BA=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.16/Igggy-0.1.16.dmg" length="25751003" type="application/octet-stream" sparkle:edSignature="0MxmF2QlwFt/KLiNqo9xDDrebFYCj+zrqiwaA9sDh5e2lVm2gS8ZWCz/PD7aoNLu9Wa45OC1O85qhopc7VooDw=="/>
         </item>
     </channel>
 </rss>
