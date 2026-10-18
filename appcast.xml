@@ -3,24 +3,26 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.16</title>
-            <pubDate>Sat, 17 Oct 2026 00:08:05 -0700</pubDate>
-            <sparkle:version>1096</sparkle:version>
-            <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
+            <title>0.1.17</title>
+            <pubDate>Sun, 18 Oct 2026 04:13:34 -0700</pubDate>
+            <sparkle:version>1279</sparkle:version>
+            <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.16
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.17
 
-- **A new install opens properly.** On some Macs, Igggy's first window opened dark and empty, with the welcome text far below the screen. It now opens at a normal size.
-- **Setup walks you through what matters.** Allow the microphone and computer sound, pick how notes are written, watch the speech model download, connect your calendar. You can go back to any step, and Help → Run Setup Again brings it back later.
-- **A welcome note.** Your library starts with a short note on where your meetings show up, how to record, and how to reach us.
-- **Send feedback from the Help menu.** Help → Send Feedback… opens an email to us with your Igggy and Mac versions filled in.
-- **Every calendar you own.** Igggy now shows meetings from all the Google calendars you own, not only your main one. If Settings → Calendar asks, reconnect once.
-- **A clearer sidebar.** The note you're on is highlighted in blue, the sidebar button moves with the sidebar as it opens and closes, and a recording's row shows a soft pulse.
-- **Settings read more easily.** Descriptions sit under what they explain, in one size. AI Models lists the current Claude and GPT models, and says plainly what happens when you use your own account.
-- **Copies go to any folder.** The Obsidian buttons are gone. Igggy still saves a plain copy of each finished note to whatever folder you choose, your vault included.
+- **Notes are ready sooner.** Igggy starts writing as soon as you press Stop, instead of first re-reading the whole recording. After a 30-minute meeting the note is saved in about 40 seconds, down from about a minute.
+- **Rewrite any note.** Use the toolbar's Rewrite button to redo a note with another model. If that model runs in the cloud, Igggy asks before sending the note to Anthropic or OpenAI. A rewrite started right after a recording waits for the speaker names first.
+- **One place to watch notes being written.** Every note shows its steps in the bar at the bottom of the window. Anything else being written or waiting sits in a small queue beside the record button.
+- **Imported audio gets speaker labels.** Igggy now tells the voices in an audio file apart and labels them Speaker 1, Speaker 2 before writing the note.
+- **The menu bar holds still.** When two meetings are coming up, they take turns every 8 seconds and fade from one to the next, and the icons beside Igggy's stay put. Point at a shortened meeting name to see all of it.
+- **Today's next meeting stands out.** It sits in its own card on Today, with room around it.
+- **Recording starts sooner.** The recording page comes up the moment you press Record.
+- **Google sign-in opens in Apple's sign-in window.** Signing in or connecting Google Calendar no longer opens a browser tab, and if it fails, Igggy tells you why.
+- **Fixes.** Calls record the other side again: computer sound could stop after the first moment of a recording. Record no longer crashes with some microphones. Notes written with your own Claude key work again on the newest Claude models. Today's tip about adding another calendar now shows only when Igggy reads a single calendar.
+- **The local Qwen option is gone.** In our tests it left out most of a long meeting. Notes are written by Apple Intelligence, or by Claude or GPT with your own key.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.16/Igggy-0.1.16.dmg" length="25751003" type="application/octet-stream" sparkle:edSignature="0MxmF2QlwFt/KLiNqo9xDDrebFYCj+zrqiwaA9sDh5e2lVm2gS8ZWCz/PD7aoNLu9Wa45OC1O85qhopc7VooDw=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.17/Igggy-0.1.17.dmg" length="19534777" type="application/octet-stream" sparkle:edSignature="42bX+XgpUUn2babvzcptVUGv9bj+WeeZGgYAhieqTOPbQl2cApfJc7HrBavxmYBCE7Uv4TLCh1MwHWGRJteIAQ=="/>
         </item>
     </channel>
 </rss>
