@@ -3,26 +3,21 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.17</title>
-            <pubDate>Sun, 18 Oct 2026 04:13:34 -0700</pubDate>
-            <sparkle:version>1279</sparkle:version>
-            <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
+            <title>0.1.18</title>
+            <pubDate>Sun, 18 Oct 2026 22:06:46 -0700</pubDate>
+            <sparkle:version>1346</sparkle:version>
+            <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.17
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.18
 
-- **Notes are ready sooner.** Igggy starts writing as soon as you press Stop, instead of first re-reading the whole recording. After a 30-minute meeting the note is saved in about 40 seconds, down from about a minute.
-- **Rewrite any note.** Use the toolbar's Rewrite button to redo a note with another model. If that model runs in the cloud, Igggy asks before sending the note to Anthropic or OpenAI. A rewrite started right after a recording waits for the speaker names first.
-- **One place to watch notes being written.** Every note shows its steps in the bar at the bottom of the window. Anything else being written or waiting sits in a small queue beside the record button.
-- **Imported audio gets speaker labels.** Igggy now tells the voices in an audio file apart and labels them Speaker 1, Speaker 2 before writing the note.
-- **The menu bar holds still.** When two meetings are coming up, they take turns every 8 seconds and fade from one to the next, and the icons beside Igggy's stay put. Point at a shortened meeting name to see all of it.
-- **Today's next meeting stands out.** It sits in its own card on Today, with room around it.
-- **Recording starts sooner.** The recording page comes up the moment you press Record.
-- **Google sign-in opens in Apple's sign-in window.** Signing in or connecting Google Calendar no longer opens a browser tab, and if it fails, Igggy tells you why.
-- **Fixes.** Calls record the other side again: computer sound could stop after the first moment of a recording. Record no longer crashes with some microphones. Notes written with your own Claude key work again on the newest Claude models. Today's tip about adding another calendar now shows only when Igggy reads a single calendar.
-- **The local Qwen option is gone.** In our tests it left out most of a long meeting. Notes are written by Apple Intelligence, or by Claude or GPT with your own key.
+- **Your voice is kept from the first word with AirPods.** When a recording started with AirPods or another Bluetooth headset as the microphone, the first few seconds of your voice could go missing. Igggy now waits the moment it takes the headset to switch over before it starts recording, and tells you plainly if no sound arrives.
+- **Connecting Google Calendar takes you to Today.** After you sign in, Settings closes, a short "Google Calendar connected" message appears, and your meetings are right there.
+- **Back to today in one click.** If you've paged ahead to another day, clicking Today in the sidebar brings the meeting list back to today.
+- **The next meeting lifts when you point at it.** In Today and the menu bar, the next meeting's card now rises slightly on hover instead of turning gray.
+- **See who's coming at a glance.** A meeting shows its attendees as small circles of initials, with the organizer first. Before the meeting, a solid circle has said yes and a hollow one hasn't said yes yet. Click a circle for the name and email, or the "people" count for everyone, grouped by their reply.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.17/Igggy-0.1.17.dmg" length="19534777" type="application/octet-stream" sparkle:edSignature="42bX+XgpUUn2babvzcptVUGv9bj+WeeZGgYAhieqTOPbQl2cApfJc7HrBavxmYBCE7Uv4TLCh1MwHWGRJteIAQ=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.18/Igggy-0.1.18.dmg" length="19532738" type="application/octet-stream" sparkle:edSignature="Fz4Q8A1mgx6OVQT9hVPU+vbUQ9ncAkJFdCqIzvKHwRA/aALZBt9pTQabr5CTlT+ITlN2f/wyfvi8DuAQ2yDvDA=="/>
         </item>
     </channel>
 </rss>
