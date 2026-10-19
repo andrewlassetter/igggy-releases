@@ -3,21 +3,24 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.18</title>
-            <pubDate>Sun, 18 Oct 2026 22:06:46 -0700</pubDate>
-            <sparkle:version>1346</sparkle:version>
-            <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
+            <title>0.1.19</title>
+            <pubDate>Mon, 19 Oct 2026 03:27:27 -0700</pubDate>
+            <sparkle:version>1461</sparkle:version>
+            <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.18
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.19
 
-- **Your voice is kept from the first word with AirPods.** When a recording started with AirPods or another Bluetooth headset as the microphone, the first few seconds of your voice could go missing. Igggy now waits the moment it takes the headset to switch over before it starts recording, and tells you plainly if no sound arrives.
-- **Connecting Google Calendar takes you to Today.** After you sign in, Settings closes, a short "Google Calendar connected" message appears, and your meetings are right there.
-- **Back to today in one click.** If you've paged ahead to another day, clicking Today in the sidebar brings the meeting list back to today.
-- **The next meeting lifts when you point at it.** In Today and the menu bar, the next meeting's card now rises slightly on hover instead of turning gray.
-- **See who's coming at a glance.** A meeting shows its attendees as small circles of initials, with the organizer first. Before the meeting, a solid circle has said yes and a hollow one hasn't said yes yet. Click a circle for the name and email, or the "people" count for everyone, grouped by their reply.
+- **No more blank page when you start recording.** After you press Record, a single line tells you what's actually happening: opening your Google Meet, Zoom or Teams call, then listening. The meeting's brief stays on screen while it's quiet, and when people start talking, their words take over.
+- **Watch your note being written.** After Write notes, the conversation stays on the page and a line under it names the step Igggy is on, such as telling the speakers apart or reading the conversation, with time left.
+- **A brief that reads like a note.** Before a meeting, the brief shows what you covered last time and what's still open, in a couple of lines. "Show the full brief" opens the rest.
+- **Smoother live conversation.** Chat bubbles grow gently as people talk, and words fade in instead of snapping.
+- **Setup ends on Today.** When you finish setting up, Igggy opens on Today, with the welcome note waiting in the sidebar.
+- **Your recording shortcut, everywhere.** Hover over Record new note to see your shortcut. ⌘R starts a recording from any screen, and you can change Igggy's keyboard shortcuts in Settings → General.
+- **Attendee details at a glance.** Hover over an attendee's circle to see their name. Click it for their email.
+- **Polish.** Clearer controls on the recording page and in the writing queue.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.18/Igggy-0.1.18.dmg" length="19532738" type="application/octet-stream" sparkle:edSignature="Fz4Q8A1mgx6OVQT9hVPU+vbUQ9ncAkJFdCqIzvKHwRA/aALZBt9pTQabr5CTlT+ITlN2f/wyfvi8DuAQ2yDvDA=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.19/Igggy-0.1.19.dmg" length="19599659" type="application/octet-stream" sparkle:edSignature="c22EIedCLw+Hy+RPrRty6Xvarwz8fB7NYQuv7ZdC0NEUE2zHMPy1JoSh3EF1ADTZ6SOvGBE205SphYfBbCFsBQ=="/>
         </item>
     </channel>
 </rss>
