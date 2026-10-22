@@ -3,24 +3,26 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.19</title>
-            <pubDate>Mon, 19 Oct 2026 03:27:27 -0700</pubDate>
-            <sparkle:version>1461</sparkle:version>
-            <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
+            <title>0.1.20</title>
+            <pubDate>Thu, 22 Oct 2026 01:41:51 -0700</pubDate>
+            <sparkle:version>1673</sparkle:version>
+            <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.19
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.20
 
-- **No more blank page when you start recording.** After you press Record, a single line tells you what's actually happening: opening your Google Meet, Zoom or Teams call, then listening. The meeting's brief stays on screen while it's quiet, and when people start talking, their words take over.
-- **Watch your note being written.** After Write notes, the conversation stays on the page and a line under it names the step Igggy is on, such as telling the speakers apart or reading the conversation, with time left.
-- **A brief that reads like a note.** Before a meeting, the brief shows what you covered last time and what's still open, in a couple of lines. "Show the full brief" opens the rest.
-- **Smoother live conversation.** Chat bubbles grow gently as people talk, and words fade in instead of snapping.
-- **Setup ends on Today.** When you finish setting up, Igggy opens on Today, with the welcome note waiting in the sidebar.
-- **Your recording shortcut, everywhere.** Hover over Record new note to see your shortcut. ⌘R starts a recording from any screen, and you can change Igggy's keyboard shortcuts in Settings → General.
-- **Attendee details at a glance.** Hover over an attendee's circle to see their name. Click it for their email.
-- **Polish.** Clearer controls on the recording page and in the writing queue.
+- **Igggy learns who's who.** After a meeting, the voices in the transcript are listed under the attendee circles. Confirm who each one is, and Igggy remembers them. Next time it names people it has met before, and only asks when it isn't sure.
+- **Your voice, kept apart.** Record a short voice sample in Settings → People. On a speakerphone call or with someone across the desk, their words now move to their side of the conversation while you talk, not just after the meeting.
+- **Names for email addresses.** When an invite lists someone only by email, add their name once, or look them up in your Contacts. Igggy only reads your Contacts and never changes them.
+- **Names from Google.** Guests an invite lists only by email now show their name when Google has one. Connecting Google Calendar also asks to read the names Google saved for people you've emailed or met with. Until Google finishes reviewing Igggy, it shows a "Google hasn't verified this app" page first: choose Advanced, then continue to Igggy. Connected before? Settings → Calendar offers to reconnect.
+- **Everything with one person.** Click someone's circle to see their recent notes, and "See all" to search every note with them. Typing a name in Search suggests people first.
+- **Your own circle shows your initials.**
+- **Briefs for one-off meetings.** Before a meeting that isn't part of a series, the brief shows the last time you met with the same people, or about the same subject, with a short summary and anything still open.
+- **The invite in the brief.** The brief now includes the meeting's room and the invite's own words, without the dial-in clutter, and it's kept with the finished note.
+- **Join in the app.** Join & record opens Zoom and Teams in their own apps when you have them installed.
+- **Polish.** The whole next-meeting card on Today opens the meeting, and recording a voice sample no longer crashes.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.19/Igggy-0.1.19.dmg" length="19599659" type="application/octet-stream" sparkle:edSignature="c22EIedCLw+Hy+RPrRty6Xvarwz8fB7NYQuv7ZdC0NEUE2zHMPy1JoSh3EF1ADTZ6SOvGBE205SphYfBbCFsBQ=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.20/Igggy-0.1.20.dmg" length="20286138" type="application/octet-stream" sparkle:edSignature="pDwykfLJAetsv2h3gFptaO1iM9wMSrmM8mpY9zMKWPmF+yfF/++VsnhSzNx/pQVXTM8MC/9+Yx7fE4oKFjAhAA=="/>
         </item>
     </channel>
 </rss>
