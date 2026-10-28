@@ -3,26 +3,26 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.20</title>
-            <pubDate>Thu, 22 Oct 2026 01:41:51 -0700</pubDate>
-            <sparkle:version>1673</sparkle:version>
-            <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
+            <title>0.1.21</title>
+            <pubDate>Wed, 28 Oct 2026 08:42:47 -0700</pubDate>
+            <sparkle:version>1806</sparkle:version>
+            <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.20
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.21
 
-- **Igggy learns who's who.** After a meeting, the voices in the transcript are listed under the attendee circles. Confirm who each one is, and Igggy remembers them. Next time it names people it has met before, and only asks when it isn't sure.
-- **Your voice, kept apart.** Record a short voice sample in Settings → People. On a speakerphone call or with someone across the desk, their words now move to their side of the conversation while you talk, not just after the meeting.
-- **Names for email addresses.** When an invite lists someone only by email, add their name once, or look them up in your Contacts. Igggy only reads your Contacts and never changes them.
-- **Names from Google.** Guests an invite lists only by email now show their name when Google has one. Connecting Google Calendar also asks to read the names Google saved for people you've emailed or met with. Until Google finishes reviewing Igggy, it shows a "Google hasn't verified this app" page first: choose Advanced, then continue to Igggy. Connected before? Settings → Calendar offers to reconnect.
-- **Everything with one person.** Click someone's circle to see their recent notes, and "See all" to search every note with them. Typing a name in Search suggests people first.
-- **Your own circle shows your initials.**
-- **Briefs for one-off meetings.** Before a meeting that isn't part of a series, the brief shows the last time you met with the same people, or about the same subject, with a short summary and anything still open.
-- **The invite in the brief.** The brief now includes the meeting's room and the invite's own words, without the dial-in clutter, and it's kept with the finished note.
-- **Join in the app.** Join & record opens Zoom and Teams in their own apps when you have them installed.
-- **Polish.** The whole next-meeting card on Today opens the meeting, and recording a voice sample no longer crashes.
+- **Long meetings finish saving.** With Keep audio recordings on, a meeting longer than about 47 minutes could stay on "Saving note" for good, and every note after it waited behind it. The note now finishes first, and the audio copy saves on its own afterward.
+- **You'll know when the backup wrote your note.** If Claude or OpenAI can't write a note (no credit, a key that stopped working, their servers busy), Apple's model still writes it, and the note now says so at the top, in plain words, with a button to rewrite it with your model once it works again. When the problem needs you, like adding credit, Today and Settings say so until it's fixed.
+- **See which model wrote each note.** It's on the line with the people in the meeting: "Written by Claude Sonnet 5.5".
+- **Notes name the other person.** On a call with one other person, the note says their name instead of "Others", taken from the invite or the meeting's title.
+- **Names spelled right.** When the transcript mishears the name of someone on the invite ("Alonso" for Alonzo), Igggy corrects it before writing the note.
+- **Confirm speaker names, then rewrite.** After a meeting, confirm who each voice is and rewrite the note with their names. Afterward, Show what changed points out each new name, each new owner and each new task or decision.
+- **Your side and theirs, on speaker calls.** When a call plays through your Mac's speakers, the live page now keeps the other person's words on their side instead of mixing them into yours.
+- **Calls on your own calendar count down too.** A call you put on your calendar without inviting anyone now counts down in the menu bar, and Today offers Record call for it.
+- **Voice ID on the person card.** Click someone's circle to see whether Igggy recognizes their voice, and remove it if you want.
+- **Polish.** The note's date line no longer cuts off, and View in Calendar has its ↗.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.20/Igggy-0.1.20.dmg" length="20286138" type="application/octet-stream" sparkle:edSignature="pDwykfLJAetsv2h3gFptaO1iM9wMSrmM8mpY9zMKWPmF+yfF/++VsnhSzNx/pQVXTM8MC/9+Yx7fE4oKFjAhAA=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.21/Igggy-0.1.21.dmg" length="20413095" type="application/octet-stream" sparkle:edSignature="lQ0oKFBIsbE02+bFL9Qk/ZvWaGxYpN4rKPfD19e/3hjdr2rtJKhjZNX6sk0AlnQX/x3rZ0x/ukZfgAsb+CfVDg=="/>
         </item>
     </channel>
 </rss>
