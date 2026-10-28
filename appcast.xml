@@ -15,7 +15,7 @@
 - **You'll know when the backup wrote your note.** If Claude or OpenAI can't write a note (no credit, a key that stopped working, their servers busy), Apple's model still writes it, and the note now says so at the top, in plain words, with a button to rewrite it with your model once it works again. When the problem needs you, like adding credit, Today and Settings say so until it's fixed.
 - **See which model wrote each note.** It's on the line with the people in the meeting: "Written by Claude Sonnet 5.5".
 - **Notes name the other person.** On a call with one other person, the note says their name instead of "Others", taken from the invite or the meeting's title.
-- **Names spelled right.** When the transcript mishears the name of someone on the invite ("Alonso" for Alonzo), Igggy corrects it before writing the note.
+- **Names spelled right.** When the transcript mishears the name of someone on the invite ("Catherine" for Kathryn), Igggy corrects it before writing the note.
 - **Confirm speaker names, then rewrite.** After a meeting, confirm who each voice is and rewrite the note with their names. Afterward, Show what changed points out each new name, each new owner and each new task or decision.
 - **Your side and theirs, on speaker calls.** When a call plays through your Mac's speakers, the live page now keeps the other person's words on their side instead of mixing them into yours.
 - **Calls on your own calendar count down too.** A call you put on your calendar without inviting anyone now counts down in the menu bar, and Today offers Record call for it.
