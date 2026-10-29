@@ -3,26 +3,26 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.21</title>
-            <pubDate>Wed, 28 Oct 2026 08:42:47 -0700</pubDate>
-            <sparkle:version>1806</sparkle:version>
-            <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
+            <title>0.1.22</title>
+            <pubDate>Thu, 29 Oct 2026 14:41:00 -0700</pubDate>
+            <sparkle:version>2076</sparkle:version>
+            <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.21
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.22
 
-- **Long meetings finish saving.** With Keep audio recordings on, a meeting longer than about 47 minutes could stay on "Saving note" for good, and every note after it waited behind it. The note now finishes first, and the audio copy saves on its own afterward.
-- **You'll know when the backup wrote your note.** If Claude or OpenAI can't write a note (no credit, a key that stopped working, their servers busy), Apple's model still writes it, and the note now says so at the top, in plain words, with a button to rewrite it with your model once it works again. When the problem needs you, like adding credit, Today and Settings say so until it's fixed.
-- **See which model wrote each note.** It's on the line with the people in the meeting: "Written by Claude Sonnet 5.5".
-- **Notes name the other person.** On a call with one other person, the note says their name instead of "Others", taken from the invite or the meeting's title.
-- **Names spelled right.** When the transcript mishears the name of someone on the invite ("Catherine" for Kathryn), Igggy corrects it before writing the note.
-- **Confirm speaker names, then rewrite.** After a meeting, confirm who each voice is and rewrite the note with their names. Afterward, Show what changed points out each new name, each new owner and each new task or decision.
-- **Your side and theirs, on speaker calls.** When a call plays through your Mac's speakers, the live page now keeps the other person's words on their side instead of mixing them into yours.
-- **Calls on your own calendar count down too.** A call you put on your calendar without inviting anyone now counts down in the menu bar, and Today offers Record call for it.
-- **Voice ID on the person card.** Click someone's circle to see whether Igggy recognizes their voice, and remove it if you want.
-- **Polish.** The note's date line no longer cuts off, and View in Calendar has its ↗.
+- **A new private note writer: Qwen 3.6.** On a Mac with 32 GB of memory or more, Settings → AI Models now offers Qwen 3.6, Igggy's best private notes. It writes on your Mac and nothing leaves it. It needs a one-time download of about 20 GB, which you can cancel and resume, and it works best with 48 GB of memory or more. Until the download finishes, Apple's model writes your notes.
+- **Long meetings are ready sooner.** Igggy now transcribes a long meeting in pieces while it's still going, so at Stop only the last few minutes are left to do. With Qwen 3.6 on a 64 GB Mac, an hour-long meeting's note was saved in under a minute, down from about two and a half.
+- **Hour-long meetings keep all their words.** On very long recordings, the transcript could leave out speech late in the meeting. The end of a long meeting is now transcribed as fully as the start.
+- **Action Items.** A note's follow-ups are now plain bullets under Action Items, without checkboxes, and one names its owner only when it's clear who took it on. Notes no longer have a separate Decisions section: what was settled is written in the topic where it was settled, and the summary carries the biggest ones. Older notes keep their format.
+- **"This is me."** When Igggy couldn't tell which voice was yours, open Speaker names and choose This is me on your voice. Igggy labels it as you and adds the clip to your voice sample, with Undo. On someone's person card, This is me tells Igggy an email address is yours, so you're recognized under every address you're invited with.
+- **People in Settings.** Settings → People is one list: you first, then everyone whose voice Igggy remembers. Each opens a card where you can rename them or see every note they're in. Your card shows your name, your email addresses and your voice sample.
+- **Igggy asks before connecting a meeting.** When you record from the menu bar or the shortcut while a meeting is on your calendar, Igggy asks whether the note is for that meeting instead of connecting it on its own. Choose Connect or Not this meeting. If you don't answer, the question waits on the finished note.
+- **Plain reasons from the backup.** If Qwen 3.6 can't write a note (the Mac is short on memory, or the download hasn't finished), Apple's model writes it, and the note says why in one sentence, with a button to rewrite it with Qwen 3.6 once it can. If memory runs short while another meeting is recording, the note waits and is written when that meeting ends.
+- **Briefs and notes stick to what happened.** A series brief now lists what was decided last time, at most five lines. Notes no longer repeat the calendar event's title as if it were something said in the meeting.
+- **Polish.** The speaker names card opens without moving the note's header, the note toolbar's tooltips follow the pointer, and the floating recording pill has a smooth shadow.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.21/Igggy-0.1.21.dmg" length="20413095" type="application/octet-stream" sparkle:edSignature="lQ0oKFBIsbE02+bFL9Qk/ZvWaGxYpN4rKPfD19e/3hjdr2rtJKhjZNX6sk0AlnQX/x3rZ0x/ukZfgAsb+CfVDg=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.22/Igggy-0.1.22.dmg" length="27227886" type="application/octet-stream" sparkle:edSignature="zWjsPWgOaJtir3LVgpKb/yUkusAAVKJLSozFq88o79PzppGbIFnAlaGjZuhBhkIO7gopsfrfmSpnVJzRT02xCQ=="/>
         </item>
     </channel>
 </rss>
