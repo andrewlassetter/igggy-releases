@@ -3,26 +3,25 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.22</title>
-            <pubDate>Thu, 29 Oct 2026 14:41:00 -0700</pubDate>
-            <sparkle:version>2076</sparkle:version>
-            <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
+            <title>0.1.23</title>
+            <pubDate>Sun, 01 Nov 2026 00:43:24 -0700</pubDate>
+            <sparkle:version>2191</sparkle:version>
+            <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.22
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.23
 
-- **A new private note writer: Qwen 3.6.** On a Mac with 32 GB of memory or more, Settings → AI Models now offers Qwen 3.6, Igggy's best private notes. It writes on your Mac and nothing leaves it. It needs a one-time download of about 20 GB, which you can cancel and resume, and it works best with 48 GB of memory or more. Until the download finishes, Apple's model writes your notes.
-- **Long meetings are ready sooner.** Igggy now transcribes a long meeting in pieces while it's still going, so at Stop only the last few minutes are left to do. With Qwen 3.6 on a 64 GB Mac, an hour-long meeting's note was saved in under a minute, down from about two and a half.
-- **Hour-long meetings keep all their words.** On very long recordings, the transcript could leave out speech late in the meeting. The end of a long meeting is now transcribed as fully as the start.
-- **Action Items.** A note's follow-ups are now plain bullets under Action Items, without checkboxes, and one names its owner only when it's clear who took it on. Notes no longer have a separate Decisions section: what was settled is written in the topic where it was settled, and the summary carries the biggest ones. Older notes keep their format.
-- **"This is me."** When Igggy couldn't tell which voice was yours, open Speaker names and choose This is me on your voice. Igggy labels it as you and adds the clip to your voice sample, with Undo. On someone's person card, This is me tells Igggy an email address is yours, so you're recognized under every address you're invited with.
-- **People in Settings.** Settings → People is one list: you first, then everyone whose voice Igggy remembers. Each opens a card where you can rename them or see every note they're in. Your card shows your name, your email addresses and your voice sample.
-- **Igggy asks before connecting a meeting.** When you record from the menu bar or the shortcut while a meeting is on your calendar, Igggy asks whether the note is for that meeting instead of connecting it on its own. Choose Connect or Not this meeting. If you don't answer, the question waits on the finished note.
-- **Plain reasons from the backup.** If Qwen 3.6 can't write a note (the Mac is short on memory, or the download hasn't finished), Apple's model writes it, and the note says why in one sentence, with a button to rewrite it with Qwen 3.6 once it can. If memory runs short while another meeting is recording, the note waits and is written when that meeting ends.
-- **Briefs and notes stick to what happened.** A series brief now lists what was decided last time, at most five lines. Notes no longer repeat the calendar event's title as if it were something said in the meeting.
-- **Polish.** The speaker names card opens without moving the note's header, the note toolbar's tooltips follow the pointer, and the floating recording pill has a smooth shadow.
+- **Every note gets the same two checks.** Before a note is saved, whichever model wrote it, Igggy drops a line with a figure that nobody said in the meeting, and turns a label like "Speaker 2" into the person's name once you've told Igggy who that is. Long meetings written by Apple's model get these checks too.
+- **Follow-ups always land under Action Items.** When a note writer heads its follow-ups "Next Steps" or "Follow-ups", Igggy now reads them as Action Items instead of filing them as a topic.
+- **Apple's notes read the words you'll see.** During a meeting, Apple's model now summarizes from the same transcript that gets saved, instead of listening to the audio a second time on its own. The transcript is ready about five seconds sooner after Stop.
+- **A near-empty note is written again.** If Apple's model hands back an almost empty note for a meeting over 20 minutes, Igggy writes it once more from the full transcript and keeps the fuller one. You may see the note start over once and wait a minute or two longer.
+- **A name you type is used everywhere.** When you name a guest whose invite showed only an email address, or Igggy has their name from Contacts or Google, the brief says "First recording with Priya" instead of the address, and the note writer is told the name too.
+- **Briefs connect meetings by company, never by the meeting tool.** "Last time with …" can now name a company when someone from the same company was on an earlier meeting. The name of a conferencing or scheduling tool (Google Meet, Zoom, Calendly) is never taken for the meeting's subject, so an invite held over Google Meet no longer shows "Last time on Google". Calendly's lines about the call are tucked away under From the invite, and its Meet link opens the call from Join & record.
+- **"This is me" where it belongs.** On a person's card, the "This is me" link no longer appears on a note you're already part of. On the speaker names card, every voice that isn't already yours offers This is me, in-person recordings included, and Undo puts back exactly the lines you claimed.
+- **Qwen 3.6 stops quoting its instructions.** Two example sentences from Qwen 3.6's instructions could show up in a note as if someone had said them. They're replaced with made-up ones, and the echo is gone.
+- **Keep each recording's tracks, for testing.** A new switch, Settings → Output → Testing → "Keep each recording's tracks", saves copies of a recording's microphone and computer-sound tracks once its note is saved. The section appears only on a Mac set up for Igggy's testing.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.22/Igggy-0.1.22.dmg" length="27227886" type="application/octet-stream" sparkle:edSignature="zWjsPWgOaJtir3LVgpKb/yUkusAAVKJLSozFq88o79PzppGbIFnAlaGjZuhBhkIO7gopsfrfmSpnVJzRT02xCQ=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.23/Igggy-0.1.23.dmg" length="27293690" type="application/octet-stream" sparkle:edSignature="OsLlt1uayOVwG8UOw0HrCIR8DFUVJ4RWFqVzaV6eyKeH3ZssdTxAF7EcntkJteWVGsiju+0N/ysIu4FikpVoAw=="/>
         </item>
     </channel>
 </rss>
