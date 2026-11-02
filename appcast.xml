@@ -3,25 +3,23 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.23</title>
-            <pubDate>Sun, 01 Nov 2026 00:43:24 -0700</pubDate>
-            <sparkle:version>2191</sparkle:version>
-            <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
+            <title>0.1.24</title>
+            <pubDate>Sun, 01 Nov 2026 16:39:49 -0800</pubDate>
+            <sparkle:version>2309</sparkle:version>
+            <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.23
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.24
 
-- **Every note gets the same two checks.** Before a note is saved, whichever model wrote it, Igggy drops a line with a figure that nobody said in the meeting, and turns a label like "Speaker 2" into the person's name once you've told Igggy who that is. Long meetings written by Apple's model get these checks too.
-- **Follow-ups always land under Action Items.** When a note writer heads its follow-ups "Next Steps" or "Follow-ups", Igggy now reads them as Action Items instead of filing them as a topic.
-- **Apple's notes read the words you'll see.** During a meeting, Apple's model now summarizes from the same transcript that gets saved, instead of listening to the audio a second time on its own. The transcript is ready about five seconds sooner after Stop.
-- **A near-empty note is written again.** If Apple's model hands back an almost empty note for a meeting over 20 minutes, Igggy writes it once more from the full transcript and keeps the fuller one. You may see the note start over once and wait a minute or two longer.
-- **A name you type is used everywhere.** When you name a guest whose invite showed only an email address, or Igggy has their name from Contacts or Google, the brief says "First recording with Priya" instead of the address, and the note writer is told the name too.
-- **Briefs connect meetings by company, never by the meeting tool.** "Last time with …" can now name a company when someone from the same company was on an earlier meeting. The name of a conferencing or scheduling tool (Google Meet, Zoom, Calendly) is never taken for the meeting's subject, so an invite held over Google Meet no longer shows "Last time on Google". Calendly's lines about the call are tucked away under From the invite, and its Meet link opens the call from Join & record.
-- **"This is me" where it belongs.** On a person's card, the "This is me" link no longer appears on a note you're already part of. On the speaker names card, every voice that isn't already yours offers This is me, in-person recordings included, and Undo puts back exactly the lines you claimed.
-- **Qwen 3.6 stops quoting its instructions.** Two example sentences from Qwen 3.6's instructions could show up in a note as if someone had said them. They're replaced with made-up ones, and the echo is gone.
-- **Keep each recording's tracks, for testing.** A new switch, Settings → Output → Testing → "Keep each recording's tracks", saves copies of a recording's microphone and computer-sound tracks once its note is saved. The section appears only on a Mac set up for Igggy's testing.
+- **Igggy opens on Today.** Relaunching while signed in no longer flashes a sign-in button first. Today's meetings show at once if Igggy already read them today, your recent notes come up sooner, and if Google can't be reached Today says so instead of telling you the day is empty. The account menu's Settings item now reads "Account & settings".
+- **One box for model downloads.** Today and setup show one bar, the time left and one main button. The models Igggy needs can pause and pick up again, even after a quit; optional ones can cancel. With no connection the box waits and restarts on its own, and Igggy checks for room first and says how much it needs. "Downloading" now appears only when files are coming in, and the finished box leaves on its own after a minute, or press OK. Settings → AI Models has a Speech Models section that shows where each one stands.
+- **Record new note shows its shortcut, and the plus moved.** Hover over Record new note and the tooltip names the key. The Add row in the sidebar is gone. To add notes, use the plus on the Notes row beside the chevron, which appears when you hover over the row.
+- **⌘N records, ⇧⌘N adds notes.** Those are the keys on a new install. If you already use Igggy, your keys haven't changed, and you can change them in Settings → General. ⇧⌘I still records from any app, even with Igggy in the background, and its row in Settings now says so.
+- **Add notes is for pasting, Import is for files.** Paste notes, a transcript or a link into Add notes. To bring in files, drop them on the window or use File → Import Files. A sheet lists each item and says what will happen, and anything Igggy can't use stays on the list, grayed, with the reason. Plain Markdown (.md) files now work, and one drop can hold several files or a folder. When a link's page needs a sign-in, Igggy says it can't read the page and suggests pasting the text.
+- **Settings → Output is now Library.** Import Files lives there too, with a line naming the formats Igggy accepts.
+- **One menu chooses what writes your notes.** Settings → AI Models has a "Write notes with" menu at the top, and it lists what isn't ready yet, grayed, with the reason. Saving your own API key now checks it, and Igggy asks once per company before your notes go there. Claude Fable 5.1 and GPT-6.1 Terra join the model lists.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.23/Igggy-0.1.23.dmg" length="27293690" type="application/octet-stream" sparkle:edSignature="OsLlt1uayOVwG8UOw0HrCIR8DFUVJ4RWFqVzaV6eyKeH3ZssdTxAF7EcntkJteWVGsiju+0N/ysIu4FikpVoAw=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.24/Igggy-0.1.24.dmg" length="27367211" type="application/octet-stream" sparkle:edSignature="60N5PTnvX5K76vu/roR0U0RhcL1iOc9bE8n/rhznkbfwpMHI1j7XCwsyo3h6H92oNBRtcbgSEOHxfm/FyMP4AQ=="/>
         </item>
     </channel>
 </rss>
