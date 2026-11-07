@@ -3,23 +3,28 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.24</title>
-            <pubDate>Sun, 01 Nov 2026 16:39:49 -0800</pubDate>
-            <sparkle:version>2309</sparkle:version>
-            <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
+            <title>0.1.25</title>
+            <pubDate>Fri, 06 Nov 2026 18:02:03 -0800</pubDate>
+            <sparkle:version>2412</sparkle:version>
+            <sparkle:shortVersionString>0.1.25</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.24
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.25
 
-- **Igggy opens on Today.** Relaunching while signed in no longer flashes a sign-in button first. Today's meetings show at once if Igggy already read them today, your recent notes come up sooner, and if Google can't be reached Today says so instead of telling you the day is empty. The account menu's Settings item now reads "Account & settings".
-- **One box for model downloads.** Today and setup show one bar, the time left and one main button. The models Igggy needs can pause and pick up again, even after a quit; optional ones can cancel. With no connection the box waits and restarts on its own, and Igggy checks for room first and says how much it needs. "Downloading" now appears only when files are coming in, and the finished box leaves on its own after a minute, or press OK. Settings → AI Models has a Speech Models section that shows where each one stands.
-- **Record new note shows its shortcut, and the plus moved.** Hover over Record new note and the tooltip names the key. The Add row in the sidebar is gone. To add notes, use the plus on the Notes row beside the chevron, which appears when you hover over the row.
-- **⌘N records, ⇧⌘N adds notes.** Those are the keys on a new install. If you already use Igggy, your keys haven't changed, and you can change them in Settings → General. ⇧⌘I still records from any app, even with Igggy in the background, and its row in Settings now says so.
-- **Add notes is for pasting, Import is for files.** Paste notes, a transcript or a link into Add notes. To bring in files, drop them on the window or use File → Import Files. A sheet lists each item and says what will happen, and anything Igggy can't use stays on the list, grayed, with the reason. Plain Markdown (.md) files now work, and one drop can hold several files or a folder. When a link's page needs a sign-in, Igggy says it can't read the page and suggests pasting the text.
-- **Settings → Output is now Library.** Import Files lives there too, with a line naming the formats Igggy accepts.
-- **One menu chooses what writes your notes.** Settings → AI Models has a "Write notes with" menu at the top, and it lists what isn't ready yet, grayed, with the reason. Saving your own API key now checks it, and Igggy asks once per company before your notes go there. Claude Fable 5.1 and GPT-6.1 Terra join the model lists.
+- **Three kinds of note: Meeting, Voice memo and Reference.** Reference replaces Lecture. Your old Lecture notes become References at the next launch, with two headings renamed (Main Points to Key Ideas, Key Terms to Terms) and the files moved to a References folder; nothing else in them changes. References have their own place in the Notes filter and in Search.
+- **How a thing came in decides its kind.** A recording tied to an invite, with sound from the computer, or with several voices is a Meeting, and any other recording is a Voice memo. Pasted text and links are References. An imported file is what its row in the Import sheet says, with a small "Write as" menu that presets Meeting for a Zoom or Teams recording or a transcript that names two or more speakers. The line under the title says what the thing is ("Podcast", "Article", "Pasted text"), and "Recorded" appears only on recordings.
+- **Write as.** The Rewrite sheet has "Write as: Meeting · Voice memo · Reference". Choosing another kind writes the note again in that shape from its saved transcript and moves it to that kind's folder. When Igggy doubts a kind, it asks once at the top of the note ("This reads like a conversation. Is it a meeting?") with Write as Meeting and Keep as it is.
+- **References get their own shape with Qwen 3.6.** What the source is, key ideas in the source's own order under its section names, passages quoted word for word and checked against the source, the terms it defines, and action items only when they are yours. With Claude, OpenAI or Apple's model, References keep their current form for now.
+- **A two-person call on the microphone alone is a Meeting.** When every word came from the mic (a speakerphone call, or two people in the room), Igggy tells the voices apart before writing the note. The transcript comes out in Speaker 1 and Speaker 2 turns, and with your voice sample a sure match is "You". One person stays a Voice memo. Igggy starts telling the voices apart while the recording is still being transcribed, so the note comes sooner.
+- **Speaker names from Settings → People.** In Confirm speaker names, typing a name shows matching people you've saved, and picking one names the voice with that person's record instead of making a second person. "Name this voice" lists the invite's people first, then saved people.
+- **Two meetings at the same time.** When events overlap, Today's Record card and the meeting a recording connects to go to the likeliest one: a meeting with other people over a hold on your calendar, the latest started, or the one with a video link. When two or three overlapping meetings have people, Igggy asks "Connect this note to which meeting?" with a button for each, and Neither.
+- **Join & record from a meeting's page.** A meeting with a call link shows Join & record, which opens the call as the recording starts. ⌘N on the page does the same. A meeting without a link keeps Record meeting.
+- **The brief shows whole sentences.** "Last time" in a meeting's brief shows the earlier note's summary as its first two whole sentences, never cut off partway.
+- **Igggy no longer sends your notes to its servers.** If you're signed in, new notes no longer appear on the Igggy web app. Settings → Account says so under the sign-in button, and the Plan row is gone. If the library can't open at launch, the window says "Library not available" with Try Again instead of asking you to sign in.
+- **Keyboard shortcut fields work again on macOS 26.** Settings → General's four shortcut fields record keys again, and a Reset to Defaults button under them puts the standard keys back. Pressing a key another row holds moves it there instead of refusing it.
+- **Smaller fixes.** The menu bar dropdown's bottom corners are rounded. While Notes is collapsed and a recording is on, the recording dot sits beside the chevron. "Copy not found" shows only while an export folder is set. The window's title bar keeps its height on every screen.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.24/Igggy-0.1.24.dmg" length="27367211" type="application/octet-stream" sparkle:edSignature="60N5PTnvX5K76vu/roR0U0RhcL1iOc9bE8n/rhznkbfwpMHI1j7XCwsyo3h6H92oNBRtcbgSEOHxfm/FyMP4AQ=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.25/Igggy-0.1.25.dmg" length="27576158" type="application/octet-stream" sparkle:edSignature="2eUI5ig9N+FUeMPsK+AtfsOjKR3TMaEOfSzMmRHDVcn3aVODESj8eLtwEyrhfRq/oGCI+4VG4uTs3+xS5mdeCw=="/>
         </item>
     </channel>
 </rss>
