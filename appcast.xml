@@ -3,28 +3,29 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.25</title>
-            <pubDate>Fri, 06 Nov 2026 18:02:03 -0800</pubDate>
-            <sparkle:version>2412</sparkle:version>
-            <sparkle:shortVersionString>0.1.25</sparkle:shortVersionString>
+            <title>0.1.26</title>
+            <pubDate>Sat, 07 Nov 2026 19:47:08 -0800</pubDate>
+            <sparkle:version>2534</sparkle:version>
+            <sparkle:shortVersionString>0.1.26</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.25
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.26
 
-- **Three kinds of note: Meeting, Voice memo and Reference.** Reference replaces Lecture. Your old Lecture notes become References at the next launch, with two headings renamed (Main Points to Key Ideas, Key Terms to Terms) and the files moved to a References folder; nothing else in them changes. References have their own place in the Notes filter and in Search.
-- **How a thing came in decides its kind.** A recording tied to an invite, with sound from the computer, or with several voices is a Meeting, and any other recording is a Voice memo. Pasted text and links are References. An imported file is what its row in the Import sheet says, with a small "Write as" menu that presets Meeting for a Zoom or Teams recording or a transcript that names two or more speakers. The line under the title says what the thing is ("Podcast", "Article", "Pasted text"), and "Recorded" appears only on recordings.
-- **Write as.** The Rewrite sheet has "Write as: Meeting · Voice memo · Reference". Choosing another kind writes the note again in that shape from its saved transcript and moves it to that kind's folder. When Igggy doubts a kind, it asks once at the top of the note ("This reads like a conversation. Is it a meeting?") with Write as Meeting and Keep as it is.
-- **References get their own shape with Qwen 3.6.** What the source is, key ideas in the source's own order under its section names, passages quoted word for word and checked against the source, the terms it defines, and action items only when they are yours. With Claude, OpenAI or Apple's model, References keep their current form for now.
-- **A two-person call on the microphone alone is a Meeting.** When every word came from the mic (a speakerphone call, or two people in the room), Igggy tells the voices apart before writing the note. The transcript comes out in Speaker 1 and Speaker 2 turns, and with your voice sample a sure match is "You". One person stays a Voice memo. Igggy starts telling the voices apart while the recording is still being transcribed, so the note comes sooner.
-- **Speaker names from Settings → People.** In Confirm speaker names, typing a name shows matching people you've saved, and picking one names the voice with that person's record instead of making a second person. "Name this voice" lists the invite's people first, then saved people.
-- **Two meetings at the same time.** When events overlap, Today's Record card and the meeting a recording connects to go to the likeliest one: a meeting with other people over a hold on your calendar, the latest started, or the one with a video link. When two or three overlapping meetings have people, Igggy asks "Connect this note to which meeting?" with a button for each, and Neither.
-- **Join & record from a meeting's page.** A meeting with a call link shows Join & record, which opens the call as the recording starts. ⌘N on the page does the same. A meeting without a link keeps Record meeting.
-- **The brief shows whole sentences.** "Last time" in a meeting's brief shows the earlier note's summary as its first two whole sentences, never cut off partway.
-- **Igggy no longer sends your notes to its servers.** If you're signed in, new notes no longer appear on the Igggy web app. Settings → Account says so under the sign-in button, and the Plan row is gone. If the library can't open at launch, the window says "Library not available" with Try Again instead of asking you to sign in.
-- **Keyboard shortcut fields work again on macOS 26.** Settings → General's four shortcut fields record keys again, and a Reset to Defaults button under them puts the standard keys back. Pressing a key another row holds moves it there instead of refusing it.
-- **Smaller fixes.** The menu bar dropdown's bottom corners are rounded. While Notes is collapsed and a recording is on, the recording dot sits beside the chevron. "Copy not found" shows only while an export folder is set. The window's title bar keeps its height on every screen.
+- **Qwen 3.5 9B, a private note writer for Macs with less memory (Beta).** Settings → AI Models has a new row: a 6 GB download that writes meeting and voice memo notes on your Mac, and nothing leaves it. It's the choice setup offers on Macs with 16 GB of memory, and it needs about 7.4 GB free when it starts writing. On a Mac with less than 16 GB the row explains why it can't be used. It's marked Beta while we watch how its notes read; links and documents still go to the next writer down.
+- **Notes wait for memory instead of switching writers.** When Qwen can't load because your Mac is busy, the note now waits in the writing queue, checking every 30 seconds for up to three hours, and the page says when it will be written ("Writing by 5:47 PM"). The writing queue lists what's waiting with a Write now button for each, the bar reads "Waiting for memory", and "Write with the backup model now" is one press away on the note. The card that says the backup wrote a note now links to AI Model Settings, and can be dismissed.
+- **Qwen 3.6 handles meetings longer than it can read at once.** A meeting over about two hours of talk is written in pieces and merged, instead of being handed to the next writer.
+- **PDF and Word files become notes.** Drop a PDF, a .docx or an older .doc on Igggy and it writes a Reference from the text, keeps the full text in the note so you can search it, and offers Show Original while the file is where it was. Pages that are scans are skipped and counted; a document longer than about 25,000 words says so on the import row before you commit. Igggy no longer keeps an Action Item that only says "None".
+- **Video files are read for their sound.** Drop a .mp4, .mov or .m4v (what Zoom, Teams and QuickTime save) and Igggy transcribes its sound the way it does an audio file. A video with no sound is refused on its row.
+- **Clearer messages for links Igggy can't read.** A private Google Doc, a paywalled article, a post behind a login, a direct link to a PDF, or a page with almost no text now fails with one plain line that is true for that link and says what to do instead. For Google Docs, Sheets and Slides: download it as a PDF and drop it on Igggy.
+- **The live transcript keeps sentences together.** One or two stray words no longer open a bubble of their own on the other side; they join their sentence. After a call, the speaker pass runs whatever writer wrote the note, so notes written with your own Claude or OpenAI key get Speaker 1 and Speaker 2 too.
+- **One person, one label.** On a one-to-one call the other person no longer shows up as both "Speaker 1" and "Others".
+- **A call on your calendar is a Meeting.** When you connect a Voice memo to a calendar meeting with other people, Igggy asks "This was on your calendar with other people. Is it a meeting?" Older voice memos saved with their invite are filed as Meetings on the first launch, words unchanged.
+- **Names from Google, tried again.** When an invite lists an address with no name, Igggy asks your Google contacts again after a day instead of giving up until the next launch, and the person's card says why a name is missing and how to fix it.
+- **The writing queue moved to the corner.** The bottom bar names the note being written and steps aside on that note's own page; the queue is a small capsule in the window's bottom-right corner, with a mark while a note is written, a stack while notes wait, and an alert when one failed.
+- **The Mac decides on memory the way macOS does.** Whether Qwen 3.6 can load is now judged by the system's own memory-pressure reading plus how much is free, so a Mac with plenty of memory isn't refused by a strict count, and the backup card shows the numbers when it is.
+- **Also:** References written with your own Claude or OpenAI key now have the same shape as Qwen's (what this is, key ideas in the source's order, passages word for word, terms), and the meeting prompt's last real-world example was replaced with an invented one so small models stop quoting it.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.25/Igggy-0.1.25.dmg" length="27576158" type="application/octet-stream" sparkle:edSignature="2eUI5ig9N+FUeMPsK+AtfsOjKR3TMaEOfSzMmRHDVcn3aVODESj8eLtwEyrhfRq/oGCI+4VG4uTs3+xS5mdeCw=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.26/Igggy-0.1.26.dmg" length="27810912" type="application/octet-stream" sparkle:edSignature="9VZjK4RJPco1/4nDT/pfQ3zc+gNWp6Xa7eXC0hs7KgQq40mfZMwWa5ZBmcR/vo1wkbiijrnDWzGyPDT4zEooCA=="/>
         </item>
     </channel>
 </rss>
