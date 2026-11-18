@@ -3,28 +3,24 @@
     <channel>
         <title>Igggy</title>
         <item>
-            <title>0.1.27</title>
-            <pubDate>Wed, 11 Nov 2026 10:48:19 -0800</pubDate>
-            <sparkle:version>2582</sparkle:version>
-            <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
+            <title>0.1.28</title>
+            <pubDate>Tue, 17 Nov 2026 23:04:32 -0800</pubDate>
+            <sparkle:version>2623</sparkle:version>
+            <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.27
+            <description sparkle:format="markdown"><![CDATA[## What's new in Igggy 0.1.28
 
-- **Igggy rests while your Mac is idle.** In 0.1.26 the meeting text beside the menu bar icon kept redrawing itself, so Igggy used half to most of one processor core even with nothing recording. It now sits near zero, which your battery and fans will notice. The countdown reads as before, in full-strength text.
-- **Links are read on your Mac and keep their shape.** A pasted link is read by one reader inside Igggy, with the page's own scripts turned off and its requests kept to the page's own site. The note keeps the page as formatted text under Source Content, headings included and images left out, and the line under the title names the site. Link notes saved before keep their old form.
-- **YouTube links are written from what was said.** Paste a YouTube link and Igggy writes the note from the video's transcript, fetched from YouTube itself, instead of from the page around it.
-- **Screenshots, photos of text and scanned pages become notes.** Drop or import a PNG, JPEG, HEIC, TIFF, GIF or WebP picture and Igggy reads its text on your Mac and writes a Reference, with the text kept for search and Show Original to open the picture. Drop two or more and Igggy asks: "Do you want these images captured as one reference note or separate notes?" Scanned pages in a PDF are now read instead of skipped, so a fully scanned PDF becomes a note too. A picture with no text, or only a few readable words, is refused on its row with a tip for a sharper shot. The first time, getting text recognition ready can take about a minute, and the row says so.
-- **Paste a screenshot.** In Add notes, ⌘V with a copied screenshot on the clipboard opens it in Import, the same as dropping it.
-- **Doubled words are gone from speaker calls.** On a call played through your Mac's speakers, the other person's voice reaches the microphone a moment later, and the transcript used to write their phrase twice. After you stop, Igggy now drops the second copy when three or more of their words repeat within about a second. Your own words are never removed, and headphone calls and voice memos are untouched.
-- **Try again appears only where it can help.** A link that fails the same way every time (a private document, a paywalled article, a link to a file, a missing page) shows its reason without a Try again button. Offline, a timeout, or a site that's down or busy still offers it. Where a page needs a sign-in or has too little text, the message now suggests a screenshot as well as pasting the text.
-- **Naming the speakers keeps a note a Meeting.** After you confirm speaker names and rewrite the note, the Rewrite sheet no longer asks Write as.
-- **Removing a Qwen model waits for the note it's writing.** In Settings → AI Models, Remove now lets the note in progress finish first and says "Removes after the note it's writing is saved." meanwhile.
-- **The backup card downloads the right model.** When a note was written by the backup because its Qwen model's files were missing, Download Again now fetches that note's own model, and the tooltip says to check the download rather than a key.
-- **Open-source credits in About Igggy.** Igggy → About Igggy lists the license notices for every open-source library built into the app, including the page reader.
-- **Also:** the Qwen descriptions in Settings and in setup now say the notes are "written on this Mac."
+- **Igggy now remembers voices, and tells you the first time.** "Recognize people by voice" in Settings → People is now on by default. Once Igggy knows who someone is, it remembers their voice on this Mac and names them in later meetings. The first note where it remembers a voice says so once ("Igggy remembered Sam's voice"), with Got It, and Voice Settings to turn recognition off or remove voices. Voices stay in your library on this Mac. Let people know when you record them.
+- **Igggy says when Apple Intelligence is off, and takes you to the switch.** Setup and Settings → AI Models now say whether Apple Intelligence is off, still downloading, or not available on this Mac. When it's off, Turn on Apple Intelligence opens its page in System Settings, and Igggy notices the change when you come back, with no relaunch.
+- **Google Meet opens in the meeting's own account.** With more than one Google account connected, Join & Record and the meeting page's Join meeting link now open a Meet call in the account the meeting came from, instead of the browser's default account.
+- **A waiting note says when no backup is ready.** When a note is waiting for memory and no backup model can write it, the note's card now says so in words and offers AI Model Settings, instead of a grayed-out button with the reason in a tooltip. The writing queue shows "No backup ready" where Write now was. Adding a key or turning on Apple Intelligence updates both right away.
+- **The speaker names card works for meetings in one room.** When every voice came through your Mac's microphone, the card first asks "Which voice is you?", with a This is me button on each voice, and stays open after your first answer. An email address is never used as a speaker's name: a guest the invite left unnamed is offered as "Add a name", and the name you type is saved to People. The card's "record a voice sample" link now works.
+- **A one-guest meeting is named from its title.** When the invite has one guest and no name for them, and the event title names exactly one other person besides you, the note now uses that name instead of writing "Others".
+- **Links lead back to their page.** On a link note, the site name under the title opens the page in your browser, the note's menu in the list has Open Original Page, and new link notes keep the address at the top of Source Content. A finished link, pasted text or dropped file now opens straight into its note, without the Notes list flashing first.
+- **The sidebar sits closer to the page.** In dark mode the sidebar is a little darker and in light mode a little grayer, so the two modes read about equally apart. The sidebar button lines up with the window's close, minimize and zoom buttons on every macOS version, and over the open sidebar it's a plain icon, without its glass circle.
 ]]></description>
-            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.27/Igggy-0.1.27.dmg" length="28156988" type="application/octet-stream" sparkle:edSignature="4+63OyB1zdZkJuLP+N+Ha3+9z+U+9/sT1sGJgD50w4wkOWQ1b1kbXpYwb97B9Jyu8HCz5srEIetJaDx2pnY/BA=="/>
+            <enclosure url="https://github.com/andrewlassetter/igggy-releases/releases/download/v0.1.28/Igggy-0.1.28.dmg" length="28203581" type="application/octet-stream" sparkle:edSignature="ki1wP4qFvMkG1F678fuKt57/edhIPSdTpvfwap4uuq6s1bdi2941BLed/6vxRJ6PLD6puGJAYlf9JAryf4kuCg=="/>
         </item>
     </channel>
 </rss>
